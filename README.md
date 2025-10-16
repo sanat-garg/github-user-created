@@ -9,22 +9,23 @@ This project is a simple, static web application that allows users to fetch the 
 - Fetches GitHub user information using the GitHub API.
 - Displays the account creation date in a user-friendly format (YYYY-MM-DD UTC).
 - Provides error handling for invalid usernames or API issues.
-- Uses a clean and modern design with Bootstrap for responsive layout.
-- Supports optional authentication using a GitHub API token passed as a URL parameter (`?token=`).
-- Fully self-contained with embedded CSS and JavaScript for easy deployment on GitHub Pages.
+- Uses a clean and responsive design with Bootstrap 5.
+- Includes a GitHub icon for enhanced user experience.
 
-## How to Use
+## Usage
 
-1.  Open the `index.html` file in your web browser.
-2.  Enter the GitHub username in the input field.
-3.  Click the "Get Creation Date" button.
-4.  The application will display the account creation date below the form.
-5.  Optionally, you can provide a GitHub API token via the `token` query parameter (e.g., `index.html?token=YOUR_GITHUB_TOKEN`).
+1.  Enter a GitHub username in the input field.
+2.  Click the "Get Creation Date" button.
+3.  The account creation date will be displayed below the button.
+4.  Error messages will be shown if the username is invalid or if there are API issues.
 
 ## Technologies Used
 
 -   HTML
--   CSS (Bootstrap, Embedded)
--   JavaScript (Vanilla JS, Embedded)
--   GitHub API
-```
+-   CSS (embedded)
+-   JavaScript (vanilla)
+-   Bootstrap 5 (for styling)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
